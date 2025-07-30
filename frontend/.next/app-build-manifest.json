@@ -1,19 +1,85 @@
 {
   "pages": {
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
     "/login/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/login/page.js"
     ],
-    "/layout": [
+    "/medical/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/layout.js"
+      "static/chunks/app/medical/layout.js"
     ],
-    "/api/login/route": [
+    "/medical/dashboard/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/api/login/route.js"
+      "static/chunks/app/medical/dashboard/page.js"
+    ],
+    "/medical/register-patient/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/medical/register-patient/page.js"
+    ],
+    "/medical/manage-patient/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/medical/manage-patient/page.js"
+    ],
+    "/medical/create-visit/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/medical/create-visit/page.js"
+    ],
+    "/medical/manage-visit/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/medical/manage-visit/page.js"
+    ],
+    "/medical/reports/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/medical/reports/page.js"
+    ],
+    "/medical/patient-overview/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/medical/patient-overview/page.js"
+    ],
+    "/nursing/dashboard/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/nursing/dashboard/page.js"
+    ],
+    "/nursing/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/nursing/layout.js"
+    ],
+    "/nursing/record-vitals/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/nursing/record-vitals/page.js"
+    ],
+    "/nursing/patient-vitals/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/nursing/patient-vitals/page.js"
+    ],
+    "/nursing/pool-queue/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/nursing/pool-queue/page.js"
+    ],
+    "/nursing/consultation-status/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/nursing/consultation-status/page.js"
     ]
   }
 }

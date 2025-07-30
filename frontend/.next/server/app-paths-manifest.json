@@ -1,3 +1,8 @@
 {
-  "/login/page": "app/login/page.js"
+  "/nursing/record-vitals/page": "app/nursing/record-vitals/page.js",
+  "/medical/patient-overview/page": "app/medical/patient-overview/page.js",
+  "/nursing/patient-vitals/page": "app/nursing/patient-vitals/page.js",
+  "/nursing/pool-queue/page": "app/nursing/pool-queue/page.js",
+  "/nursing/dashboard/page": "app/nursing/dashboard/page.js",
+  "/nursing/consultation-status/page": "app/nursing/consultation-status/page.js"
 }
